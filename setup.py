@@ -25,6 +25,7 @@ setup(name='decobrewery.policy',
           'setuptools',
           'decobrewery.xdvtheme',
           'decobrewery.contenttypes',
+          'plone.app.page',
       ],
       entry_points="""
       """,

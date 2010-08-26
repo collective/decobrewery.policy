@@ -4,5 +4,6 @@
   <dependencies>
     <dependency>profile-decobrewery.xdvtheme:default</dependency>
     <dependency>profile-decobrewery.contenttypes:default</dependency>
+    <dependency>profile-plone.app.page:default</dependency>
   </dependencies>
 </metadata>
