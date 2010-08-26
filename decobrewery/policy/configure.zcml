@@ -1,0 +1,21 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="decobrewery.policy">
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <include package="decobrewery.xdvtheme" />
+  <include package="decobrewery.contenttypes" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Deco Brewery Policy"
+      directory="profiles/default"
+      description="Installs the decobrewery.policy package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+</configure>
