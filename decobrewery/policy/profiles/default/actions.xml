@@ -19,4 +19,9 @@
    <property name="visible">False</property>
   </object>
  </object>
+ <object name="object" meta_type="CMF Action Category">
+  <object name="contentrules" meta_type="CMF Action" i18n:domain="plone">
+   <property name="visible">False</property>
+  </object>
+ </object>
 </object>
