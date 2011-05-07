@@ -2,8 +2,7 @@
 <metadata>
   <version>1000</version>
   <dependencies>
-    <dependency>profile-plone.app.page:default</dependency>
     <dependency>profile-decobrewery.contenttypes:default</dependency>
-    <dependency>profile-decobrewery.xdvtheme:default</dependency>
+    <dependency>profile-decobrewery.theme:default</dependency>
   </dependencies>
 </metadata>

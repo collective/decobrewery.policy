@@ -7,8 +7,7 @@
 
   <five:registerPackage package="." initialize=".initialize" />
 
-  <include package="plone.app.page" />
-  <include package="decobrewery.xdvtheme" />
+  <include package="decobrewery.theme" />
   <include package="decobrewery.contenttypes" />
 
   <genericsetup:registerProfile

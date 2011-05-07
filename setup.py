@@ -23,9 +23,8 @@ setup(name='decobrewery.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'decobrewery.xdvtheme',
+          'decobrewery.theme',
           'decobrewery.contenttypes',
-          'plone.app.page',
       ],
       entry_points="""
       """,
