@@ -23,10 +23,14 @@ setup(name='decobrewery.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'decobrewery.theme',
           'decobrewery.contenttypes',
+          'decobrewery.theme',
       ],
       entry_points="""
+      # -*- Entry points: -*-
+
+      [z3c.autoinclude.plugin]
+      target = plone
       """,
       setup_requires=["PasteScript"],
       paster_plugins=["ZopeSkel"],

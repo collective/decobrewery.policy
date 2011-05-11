@@ -18,11 +18,4 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
-  <genericsetup:importStep
-      name="decobrewer.policy.various"
-      title="Decobrewery policy miscellaneous import steps"
-      description="Various import steps that are not handled by GS import/export handlers."
-      handler="decobrewery.policy.setuphandlers.setupVarious">
-  </genericsetup:importStep>
-
 </configure>
