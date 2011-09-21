@@ -23,6 +23,7 @@ setup(name='decobrewery.policy',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.deco',
           'decobrewery.contenttypes',
           'decobrewery.theme',
       ],
